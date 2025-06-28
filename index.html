@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <link
+      rel="stylesheet"
+      href="../resources/boot/bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="side-panel-css.css" />
+    <title>HBank</title>
+  </head>
+  <body class="bg">
+    <div class="bg">
+      <div class="header">
+        <div class="header1">
+          <div>
+            <h3 id="para">HBank</h3>
+          </div>
+          <div class="para1 dropdown">
+            <button
+              class="profile-btn"
+              id="profileDropdown"
+              onclick="toggleDropdown()"
+            >
+              TCSN &#9662;
+            </button>
+            <div id="dropdownMenu" class="dropdown-content">
+              <a href="#">Profile</a>
+              <a href="#">Settings</a>
+              <a href="#">Logout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="sidebar">
+          <nav>
+            <div class="menu-item">
+              <span
+                ><img class="sidebar-icon" src="icons8-house-32.png" alt=""
+              /></span>
+              <a style="text-decoration: none" href="">Dashboard</a>
+            </div>
+
+            <div class="menu-item1">
+              <a
+                style="text-decoration: none; color: rgb(160, 154, 154)"
+                class="no-icon"
+                href=""
+                >Analytics</a
+              >
+            </div>
+            <div class="menu-item">
+              <span><img src="icons8-combo-chart-24 (1).png" alt="" /></span
+              ><a href="" style="text-decoration: none"> Performance</a>
+            </div>
+            <div class="menu-item">
+              <span><img src="icons8-sensor-32.png" alt="" /></span>
+              <a style="text-decoration: none" href=""> HotJar</a>
+              <button class="new-button">new</button>
+            </div>
+            <div class="menu-item1">
+              <a
+                href=""
+                style="text-decoration: none; color: rgb(160, 154, 154)"
+                >Support</a
+              >
+            </div>
+            <div class="menu-item">
+              <span
+                ><img style="height: 27px" src="icons8-ticket-48.png" alt=""
+              /></span>
+              <a style="text-decoration: none" href=""> Tickets</a>
+              <button class="button-18">18</button>
+            </div>
+            <div class="menu-item">
+              <span><img src="icons8-administrator-male-32.png" alt="" /></span
+              ><a style="text-decoration: none" href=""> Agents</a>
+            </div>
+            <div class="menu-item">
+              <span><img src="icons8-user-account-24.png" alt="" /></span
+              ><a style="text-decoration: none" href=""> Customers</a>
+            </div>
+            <div class="menu-item1">
+              <a
+                href=""
+                style="text-decoration: none; color: rgb(160, 154, 154)"
+                >Shop</a
+              >
+            </div>
+            <div class="menu-item">
+              <span
+                ><img
+                  style="height: 24px"
+                  src="icons8-store-50.png"
+                  alt="" /></span
+              ><a style="text-decoration: none"> Products</a>
+            </div>
+
+            <div class="menu-item">
+              <span
+                ><img
+                  style="height: 24px"
+                  src="icons8-shopping-basket-50.png"
+                  alt=""
+              /></span>
+              <a style="text-decoration: none" href="">Orders</a>
+            </div>
+            <div class="menu-item">
+              <span
+                ><img style="height: 25px" src="icons8-notice-48.png" alt=""
+              /></span>
+              <a style="text-decoration: none" href="">Reports</a>
+            </div>
+          </nav>
+        </div>
+        <div class="inventory-main">
+          <div id="para">
+            <p style="font-weight: 600; font-size: x-large">
+              Inventory Details
+            </p>
+          </div>
+          <div class="inventory">
+            <div class="inventory-sub1">
+              <p id="yb">You Balance</p>
+              <h2 id="money">$25,350</h2>
+              <p id="count">3 Cards</p>
+            </div>
+            <div class="inventory-sub2">
+              <button id="button">Details -></button>
+            </div>
+          </div>
+
+          <div class="para2">
+            <div class="para2-text">
+              <p>Inventory Details</p>
+            </div>
+            <div class="bubble">
+              <div class="bubble-text">
+                <p style="margin: 0px">2</p>
+              </div>
+            </div>
+          </div>
+          <div class="bankc">
+            <div class="bankc1">
+              <div class="bank-card1">
+                <div class="card-main1">
+                  <div class="top-row">
+                    <h3 id="card-main-text-1">Shopping Card</h3>
+                    <div class="magnetic-chip"></div>
+                  </div>
+                  <div class="bottom-row">
+                    <h3 id="card-main-text-2">NAME</h3>
+                    <h3 id="card-main-text-3">Exp 9/36</h3>
+                  </div>
+                </div>
+                <div class="card-sub1">
+                  <div><h2 id="card-num">**** **** 0928</h2></div>
+                  <div><h2 id="visa-text1">VISA</h2></div>
+                </div>
+              </div>
+            </div>
+            <div class="bankc2">
+              <div class="bank-card1">
+                <div class="card-main2">
+                  <div class="top-row">
+                    <h3 id="card-main-text-1">Shopping Card</h3>
+                    <div class="magnetic-chip"></div>
+                  </div>
+                  <div class="bottom-row">
+                    <h3 id="card-main-text-2">NAME</h3>
+                    <h3 id="card-main-text-3">Exp 9/36</h3>
+                  </div>
+                </div>
+                <div class="card-sub2">
+                  <div><h2 id="card-num">**** **** 4486</h2></div>
+                  <div><h2 id="visa-text1">VISA</h2></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="addc">
+            <div class="newc">
+              <button class="newc-text">+ Add Card</button>
+            </div>
+          </div>
+          <div class="foot">
+            <div class="foot-con">
+              <div class="foot-earn">
+                <div class="earni">
+                  <div class="earnidg">
+                    <img id="earnimg" src="earn.png" alt="Earnings" />
+                  </div>
+                </div>
+                <div class="earnt">
+                  <p id="titl1">Earnings</p>
+                  <p id="titl2">$12,341</p>
+                </div>
+              </div>
+
+              <div class="foot-spend">
+                <div class="spendi">
+                  <img id="spendimg" src="spend.png" />
+                </div>
+                <div class="spendt">
+                  <p id="titl1">Spendings</p>
+                  <p id="titl2">$4,009</p>
+                </div>
+              </div>
+
+              <div class="foot-goal">
+                <div class="goali">
+                  <img id="spendimg" src="goal.png" />
+                </div>
+                <div class="goalt">
+                  <p id="titl1">Goals</p>
+                  <p id="titl2">$8,098</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side-panel">
+          <div class="title">
+            <h4>Card Details</h4>
+          </div>
+          <div class="bank-card-container">
+            <div class="bank-card">
+              <div class="card-main">
+                <div class="top-row">
+                  <h3 id="card-main-text-1">Shopping Card</h3>
+                  <div class="magnetic-chip"></div>
+                </div>
+                <div class="bottom-row">
+                  <h3 id="card-main-text-2">NAME</h3>
+                  <h3 id="card-main-text-3">Exp 9/36</h3>
+                </div>
+              </div>
+              <div class="card-sub">
+                <h2 id="card-num">**** **** 9012</h2>
+                <h2 id="visa-text">VISA</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-number-details">
+            <p style="font-size: large; margin: 0px">Card Number</p>
+            <h3>**** 1234 5678 9012</h3>
+          </div>
+
+          <div class="card-details">
+            <div class="card-details-row">
+              <p>EXPIRE DATE</p>
+              <p>08/28</p>
+            </div>
+
+            <div
+              class="card-details-row"
+              style="border-left: 1px solid grey; border-right: 1px solid grey"
+            >
+              <p>CVV</p>
+              <p>258</p>
+            </div>
+
+            <div class="card-details-row">
+              <p>LEVEL</p>
+              <p>02</p>
+            </div>
+          </div>
+          <div class="wline"></div>
+          <div class="spending-limits">
+            <div class="s-l-title">
+              <p>Spending limits</p>
+            </div>
+            <div class="s-l-content">
+              <p>DAILY TRANSACTION LIMIT</p>
+              <div class="progress-bar">
+                <div class="completed"></div>
+              </div>
+              <p>$400 spent of $20000</p>
+            </div>
+          </div>
+        </div>
+        <script
+          type="module"
+          src="../resources/boot/bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"
+        ></script>
+      </div>
+    </div>
+  </body>
+</html>
